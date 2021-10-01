@@ -2,7 +2,7 @@ library(tidyverse)
 library(highcharter)
 library(htmlwidgets)
 
-df <- read.csv('D:/R scripts/script_010821_imdb_ratings/archive/df_movies.csv')
+df <- read.csv('~/df_movies.csv')
 
 #clean dataset
 df2 <- df[-which(df$genres == ""), ]
